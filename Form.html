@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form name="myform" onsubmit="return validateform()">
+
+    <label>FIRST NAME</label>
+    <input type="text" name="fname" placeholder="Enter your FIRST NAME"><br>
+     
+    <label>LAST NAME</label>
+    <input type="text" name="lname" placeholder="Enter your LAST NAME"><br>
+    
+    <label> PHONE NUMBER </label>
+    <input type= "number" name pnumber><br>
+
+    <label> PASSWORD </label>
+    <input type="password"><br>
+
+    <input type="SUBMIT" value="SUBMIT">
+    
+        
+    </form>
+
+    <script>
+        function validateform(){
+            let x=document.forms["myform"]["fname"].value;
+            if( x==""){
+                alert("firstname is empty");
+                 return false;
+                
+            }
+
+        
+
+        }
+
+
+
+    </script>
+    
+</body>
+</html>

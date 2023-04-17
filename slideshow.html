@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow Project</title>
+    <link rel="stylesheet" href="./CSS/carousel.css">
+</head>
+<body>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+        <img src="IMAGE/image 1.jpg" width="100%">
+             <div class="text">
+                first slide
+             
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="IMAGE/image2.jpg" width="100%">
+                 <div class="text">
+                    second slide
+                 
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="IMAGE/image3.jpg" width="100%">
+                     <div class="text">
+                        third slide
+                     
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSides(-1)"><</a>
+                <a class="next" onclick="plusSides(1)">></a>
+                
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <span class="dot" onclick="currentSlides(1)"></span>
+        <span class="dot" onclick="currentSlides(2)"></span>
+        <span class="dot" onclick="currentSlides(3)"></span>
+    
+
+    </div>
+
+    <script src="./JS/main.js"></script>
+</body>
+</html>

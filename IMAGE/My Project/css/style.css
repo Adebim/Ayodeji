@@ -1,0 +1,29 @@
+.container{
+    text-align: center;
+}
+.container h2{
+    background-color: blue;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2.5rem;
+
+}
+.color{
+    color: aqua;
+}
+.btn-hero{
+    text-transform: uppercase;
+    background: transparent;
+    color: blueviolet;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border: 2px solid coral; 
+
+
+}
+.btn-hero:hover{
+    color: brown;
+    background: goldenrod;
+}
